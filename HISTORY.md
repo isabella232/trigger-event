@@ -1,3 +1,9 @@
+1.0.0 - 2016-05-18
+==================
+
+  * Remove Duo support, add Browserify support
+  * Modernize test harness
+
 0.1.0 - August 19, 2013
 -----------------------
 * make `el` the first argument
