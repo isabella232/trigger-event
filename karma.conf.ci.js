@@ -76,7 +76,8 @@ module.exports = function(config) {
 
     singleRun: true,
 
-    browsers: ['PhantomJS'].concat(Object.keys(customLaunchers)),
+    // FIXME(ndhoule): Phantom disagrees with this module
+    browsers: [/* 'PhantomJS' */].concat(Object.keys(customLaunchers)),
 
     customLaunchers: customLaunchers,
 
