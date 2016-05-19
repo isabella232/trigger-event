@@ -20,6 +20,9 @@
     "url": "https://github.com/segmentio/trigger-event/issues"
   },
   "homepage": "https://github.com/segmentio/trigger-event#readme",
+  "dependencies": {
+    "@segment/create-event": "^1.0.0"
+  },
   "devDependencies": {
     "@segment/eslint-config": "^3.1.1",
     "browserify": "^13.0.0",
@@ -42,8 +45,5 @@
     "phantomjs-prebuilt": "^2.1.7",
     "proclaim": "^3.4.1",
     "watchify": "^3.7.0"
-  },
-  "dependencies": {
-    "@segment/create-event": "^1.0.0"
   }
 }
